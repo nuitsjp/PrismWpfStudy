@@ -1,0 +1,10 @@
+﻿<UserControl x:Class="PopNavigationJournal.Views.FirstPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:prism="http://prismlibrary.com/"             
+             prism:ViewModelLocator.AutoWireViewModel="True">
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Label Content="First Page" Margin="10"/>
+        <Button Content="Navigate Second" Margin="10" Command="{Binding NavigateSecondPageCommand}"/>
+    </StackPanel>
+</UserControl>
