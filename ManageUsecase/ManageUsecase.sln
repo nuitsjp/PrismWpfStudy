@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageUsecase.Usecases", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageUsecase.Presentation", "ManageUsecase.Presentation\ManageUsecase.Presentation.csproj", "{6F194F65-2645-4E4E-BDE3-D2088E62C58F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageUsecase", "ManageUsecase\ManageUsecase.csproj", "{27350EE3-75B9-4214-82AF-0B4ECFD7BCC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6F194F65-2645-4E4E-BDE3-D2088E62C58F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F194F65-2645-4E4E-BDE3-D2088E62C58F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F194F65-2645-4E4E-BDE3-D2088E62C58F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27350EE3-75B9-4214-82AF-0B4ECFD7BCC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27350EE3-75B9-4214-82AF-0B4ECFD7BCC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27350EE3-75B9-4214-82AF-0B4ECFD7BCC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27350EE3-75B9-4214-82AF-0B4ECFD7BCC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
