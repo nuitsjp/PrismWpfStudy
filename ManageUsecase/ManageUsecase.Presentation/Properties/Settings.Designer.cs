@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ManageUsecase.Properties
+namespace ManageUsecase.Presentation.Properties
 {
 
 

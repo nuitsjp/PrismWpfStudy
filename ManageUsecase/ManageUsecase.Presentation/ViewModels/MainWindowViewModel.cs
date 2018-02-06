@@ -1,6 +1,6 @@
 ﻿using Prism.Mvvm;
 
-namespace ManageUsecase.ViewModels
+namespace ManageUsecase.Presentation.ViewModels
 {
     public class MainWindowViewModel : BindableBase
     {

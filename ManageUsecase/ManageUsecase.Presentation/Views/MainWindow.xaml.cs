@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace ManageUsecase.Views
+namespace ManageUsecase.Presentation.Views
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

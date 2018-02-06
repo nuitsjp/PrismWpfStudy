@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3D8A579D-C609-49A7-9562-97E1AFACE67E}</ProjectGuid>
+    <ProjectGuid>{EFE16EDC-60B0-4D08-A94B-47B7DA562D00}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ManageUsecase</RootNamespace>
+    <RootNamespace>ManageUsecase.Presentation</RootNamespace>
     <AssemblyName>ManageUsecase</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -95,13 +95,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Prism.DryIoc" Version="6.3.0" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ManageUsecase.Usecases\ManageUsecase.Usecases.csproj">
-      <Project>{2cd9ed2f-e5df-49d0-805f-8ee5ee481a31}</Project>
-      <Name>ManageUsecase.Usecases</Name>
-    </ProjectReference>
+    <PackageReference Include="Prism.Autofac" Version="6.3.0" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
