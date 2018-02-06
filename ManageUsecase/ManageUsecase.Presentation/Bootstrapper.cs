@@ -1,12 +1,12 @@
 ﻿using ManageUsecase.Presentation.Views;
 using System.Windows;
 using Prism.Modularity;
-using Autofac;
-using Prism.Autofac;
+using DryIoc;
+using Prism.DryIoc;
 
 namespace ManageUsecase.Presentation
 {
-    class Bootstrapper : AutofacBootstrapper
+    class Bootstrapper : DryIocBootstrapper
     {
         protected override DependencyObject CreateShell()
         {
@@ -16,11 +16,6 @@ namespace ManageUsecase.Presentation
         protected override void InitializeShell()
         {
             Application.Current.MainWindow.Show();
-        }
-
-        protected override void ConfigureViewModelLocator()
-        {
-            base.ConfigureViewModelLocator();
         }
 
         protected override void ConfigureModuleCatalog()
